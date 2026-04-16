@@ -1,0 +1,47 @@
+# Environment & secrets
+.env
+*.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Calibration model files
+*.pkl
+*.joblib
+models/
+
+# Logs
+*.log
+logs/
+
+# Node / Frontend
+node_modules/
+dashboard/frontend/dist/
+dashboard/frontend/.parcel-cache/
+dashboard/frontend/build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

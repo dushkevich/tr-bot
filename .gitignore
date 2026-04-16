@@ -1,0 +1,51 @@
+# Environment & secrets
+.env
+*.env
+config/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Models
+*.pkl
+*.joblib
+models/
+
+# Node / Frontend
+node_modules/
+dashboard/frontend/dist/
+dashboard/frontend/.parcel-cache/
+dashboard/frontend/build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude internal
+.claude/
